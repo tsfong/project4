@@ -3,13 +3,13 @@ import { useState } from "react";
 import "./InkblotTest.css";
 import { Card } from "react-bootstrap";
 import { Form } from "react-bootstrap";
-import "./images/inkblot1.jpeg";
+import inkblot1 from "./images/inkblot1.jpeg";
 
 const InkblotTest = () => (
     <>
     <div className="card-container">
     <Card style={{ width: '60rem' }}>
-  <Card.Img variant="top" src="./images/inkblot1.jpeg" />
+  <Card.Img variant="top" src={inkblot1} />
   <Card.Body>
     <Card.Title>Inkblot I</Card.Title>
     <Card.Text className="text-box">
