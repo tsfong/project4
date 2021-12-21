@@ -66,7 +66,7 @@ const inkblots = [
       key: "1",
       title: "Card 1",
       text: "What do you see?",
-      img: "../public/images/inkblot1.jpeg"
+      img: "./images/inkblot1.jpeg"
     },
     {
       id: "2",
