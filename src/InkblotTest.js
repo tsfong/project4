@@ -4,6 +4,17 @@ import "./InkblotTest.css";
 import { Card } from "react-bootstrap";
 import { Form } from "react-bootstrap";
 import inkblot1 from "./images/inkblot1.jpeg";
+import inkblot2 from "./images/inkblot2.jpeg";
+import inkblot3 from "./images/inkblot3.jpeg";
+import inkblot4 from "./images/inkblot4.jpeg";
+import inkblot5 from "./images/inkblot5.jpeg";
+import inkblot6 from "./images/inkblot6.jpeg";
+import inkblot7 from "./images/inkblot7.jpeg";
+import inkblot8 from "./images/inkblot8.jpeg";
+import inkblot9 from "./images/inkblot9.jpeg";
+import inkblot10 from "./images/inkblot10.jpeg";
+
+
 
 const InkblotTest = () => (
     <>
@@ -31,7 +42,7 @@ const InkblotTest = () => (
 {/* NEXT CARD */}
 
     <Card style={{ width: '60rem' }}>
-  <Card.Img variant="top" src="./images/inkblot2.jpeg" alt="pic" />
+  <Card.Img variant="top" src={inkblot2} alt="pic" />
   <Card.Body>
     <Card.Title>Inkblot II</Card.Title>
     <Card.Text>
@@ -53,7 +64,7 @@ const InkblotTest = () => (
 {/* NEXT CARD */}
 
 <Card style={{ width: '60rem' }}>
-  <Card.Img variant="top" src="./images/inkblot3.jpeg" />
+  <Card.Img variant="top" src={inkblot3} />
   <Card.Body>
     <Card.Title>Inkblot III</Card.Title>
     <Card.Text className="text-box">
@@ -75,7 +86,7 @@ const InkblotTest = () => (
 {/* NEXT CARD */}
 
 <Card style={{ width: '60rem' }}>
-  <Card.Img variant="top" src="./images/inkblot4.jpeg" />
+  <Card.Img variant="top" src={inkblot4} />
   <Card.Body>
     <Card.Title>Inkblot IV</Card.Title>
     <Card.Text className="text-box">
@@ -97,7 +108,7 @@ const InkblotTest = () => (
 {/* NEXT CARD */}
 
 <Card style={{ width: '60rem' }}>
-  <Card.Img variant="top" src="./images/inkblot5.jpeg" />
+  <Card.Img variant="top" src={inkblot5} />
   <Card.Body>
     <Card.Title>Inkblot V</Card.Title>
     <Card.Text className="text-box">
@@ -119,7 +130,7 @@ const InkblotTest = () => (
 {/* NEXT CARD */}
 
 <Card style={{ width: '60rem' }}>
-  <Card.Img variant="top" src="./images/inkblot6.jpeg" />
+  <Card.Img variant="top" src={inkblot6} />
   <Card.Body>
     <Card.Title>Inkblot VI</Card.Title>
     <Card.Text className="text-box">
@@ -141,7 +152,7 @@ const InkblotTest = () => (
 {/* NEXT CARD */}
 
 <Card style={{ width: '60rem' }}>
-  <Card.Img variant="top" src="./images/inkblot7.jpeg" />
+  <Card.Img variant="top" src={inkblot7} />
   <Card.Body>
     <Card.Title>Inkblot VII</Card.Title>
     <Card.Text className="text-box">
@@ -163,7 +174,7 @@ const InkblotTest = () => (
 {/* NEXT CARD */}
 
 <Card style={{ width: '60rem' }}>
-  <Card.Img variant="top" src="./images/inkblot8.jpeg" />
+  <Card.Img variant="top" src={inkblot8} />
   <Card.Body>
     <Card.Title>Inkblot VIII</Card.Title>
     <Card.Text className="text-box">
@@ -185,7 +196,7 @@ const InkblotTest = () => (
 {/* NEXT CARD */}
 
 <Card style={{ width: '60rem' }}>
-  <Card.Img variant="top" src="./images/inkblot9.jpeg" />
+  <Card.Img variant="top" src={inkblot9} />
   <Card.Body>
     <Card.Title>Inkblot IX</Card.Title>
     <Card.Text className="text-box">
@@ -207,7 +218,7 @@ const InkblotTest = () => (
 {/* NEXT CARD */}
 
 <Card style={{ width: '60rem' }}>
-  <Card.Img variant="top" src="./images/inkblot10.jpeg" />
+  <Card.Img variant="top" src={inkblot10} />
   <Card.Body>
     <Card.Title>Inkblot X</Card.Title>
     <Card.Text className="text-box">
