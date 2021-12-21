@@ -9,7 +9,7 @@ const InkblotTest = () => (
     <>
     <div className="card-container">
     <Card style={{ width: '60rem' }}>
-  <Card.Img variant="top" src=".images/inkblot1.jpeg" />
+  <Card.Img variant="top" src="./images/inkblot1.jpeg" />
   <Card.Body>
     <Card.Title>Inkblot I</Card.Title>
     <Card.Text className="text-box">
@@ -27,11 +27,13 @@ const InkblotTest = () => (
 </Form>
   </Card.Body>
 </Card>
-{/* SECOND CARD */}
+
+{/* NEXT CARD */}
+
     <Card style={{ width: '60rem' }}>
   <Card.Img variant="top" src="./images/inkblot2.jpeg" alt="pic" />
   <Card.Body>
-    <Card.Title>Inkblot I</Card.Title>
+    <Card.Title>Inkblot II</Card.Title>
     <Card.Text>
       What do you see?
     </Card.Text>
@@ -47,6 +49,185 @@ const InkblotTest = () => (
 </Form>
   </Card.Body>
 </Card>
+
+{/* NEXT CARD */}
+
+<Card style={{ width: '60rem' }}>
+  <Card.Img variant="top" src="./images/inkblot3.jpeg" />
+  <Card.Body>
+    <Card.Title>Inkblot III</Card.Title>
+    <Card.Text className="text-box">
+      What do you see?
+    </Card.Text>
+    <Form>
+  <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
+    <Form.Label>First Name:</Form.Label>
+    <Form.Control type="first-name" placeholder="Bob" />
+  </Form.Group>
+  <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
+    <Form.Label>Response:</Form.Label>
+    <Form.Control as="textarea" rows={3} />
+  </Form.Group>
+</Form>
+  </Card.Body>
+</Card>
+
+{/* NEXT CARD */}
+
+<Card style={{ width: '60rem' }}>
+  <Card.Img variant="top" src="./images/inkblot4.jpeg" />
+  <Card.Body>
+    <Card.Title>Inkblot IV</Card.Title>
+    <Card.Text className="text-box">
+      What do you see?
+    </Card.Text>
+    <Form>
+  <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
+    <Form.Label>First Name:</Form.Label>
+    <Form.Control type="first-name" placeholder="Bob" />
+  </Form.Group>
+  <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
+    <Form.Label>Response:</Form.Label>
+    <Form.Control as="textarea" rows={3} />
+  </Form.Group>
+</Form>
+  </Card.Body>
+</Card>
+
+{/* NEXT CARD */}
+
+<Card style={{ width: '60rem' }}>
+  <Card.Img variant="top" src="./images/inkblot5.jpeg" />
+  <Card.Body>
+    <Card.Title>Inkblot V</Card.Title>
+    <Card.Text className="text-box">
+      What do you see?
+    </Card.Text>
+    <Form>
+  <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
+    <Form.Label>First Name:</Form.Label>
+    <Form.Control type="first-name" placeholder="Bob" />
+  </Form.Group>
+  <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
+    <Form.Label>Response:</Form.Label>
+    <Form.Control as="textarea" rows={3} />
+  </Form.Group>
+</Form>
+  </Card.Body>
+</Card>
+
+{/* NEXT CARD */}
+
+<Card style={{ width: '60rem' }}>
+  <Card.Img variant="top" src="./images/inkblot6.jpeg" />
+  <Card.Body>
+    <Card.Title>Inkblot VI</Card.Title>
+    <Card.Text className="text-box">
+      What do you see?
+    </Card.Text>
+    <Form>
+  <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
+    <Form.Label>First Name:</Form.Label>
+    <Form.Control type="first-name" placeholder="Bob" />
+  </Form.Group>
+  <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
+    <Form.Label>Response:</Form.Label>
+    <Form.Control as="textarea" rows={3} />
+  </Form.Group>
+</Form>
+  </Card.Body>
+</Card>
+
+{/* NEXT CARD */}
+
+<Card style={{ width: '60rem' }}>
+  <Card.Img variant="top" src="./images/inkblot7.jpeg" />
+  <Card.Body>
+    <Card.Title>Inkblot VII</Card.Title>
+    <Card.Text className="text-box">
+      What do you see?
+    </Card.Text>
+    <Form>
+  <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
+    <Form.Label>First Name:</Form.Label>
+    <Form.Control type="first-name" placeholder="Bob" />
+  </Form.Group>
+  <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
+    <Form.Label>Response:</Form.Label>
+    <Form.Control as="textarea" rows={3} />
+  </Form.Group>
+</Form>
+  </Card.Body>
+</Card>
+
+{/* NEXT CARD */}
+
+<Card style={{ width: '60rem' }}>
+  <Card.Img variant="top" src="./images/inkblot8.jpeg" />
+  <Card.Body>
+    <Card.Title>Inkblot VIII</Card.Title>
+    <Card.Text className="text-box">
+      What do you see?
+    </Card.Text>
+    <Form>
+  <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
+    <Form.Label>First Name:</Form.Label>
+    <Form.Control type="first-name" placeholder="Bob" />
+  </Form.Group>
+  <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
+    <Form.Label>Response:</Form.Label>
+    <Form.Control as="textarea" rows={3} />
+  </Form.Group>
+</Form>
+  </Card.Body>
+</Card>
+
+{/* NEXT CARD */}
+
+<Card style={{ width: '60rem' }}>
+  <Card.Img variant="top" src="./images/inkblot9.jpeg" />
+  <Card.Body>
+    <Card.Title>Inkblot IX</Card.Title>
+    <Card.Text className="text-box">
+      What do you see?
+    </Card.Text>
+    <Form>
+  <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
+    <Form.Label>First Name:</Form.Label>
+    <Form.Control type="first-name" placeholder="Bob" />
+  </Form.Group>
+  <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
+    <Form.Label>Response:</Form.Label>
+    <Form.Control as="textarea" rows={3} />
+  </Form.Group>
+</Form>
+  </Card.Body>
+</Card>
+
+{/* NEXT CARD */}
+
+<Card style={{ width: '60rem' }}>
+  <Card.Img variant="top" src="./images/inkblot10.jpeg" />
+  <Card.Body>
+    <Card.Title>Inkblot X</Card.Title>
+    <Card.Text className="text-box">
+      What do you see?
+    </Card.Text>
+    <Form>
+  <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
+    <Form.Label>First Name:</Form.Label>
+    <Form.Control type="first-name" placeholder="Bob" />
+  </Form.Group>
+  <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
+    <Form.Label>Response:</Form.Label>
+    <Form.Control as="textarea" rows={3} />
+  </Form.Group>
+</Form>
+  </Card.Body>
+</Card>
+
+{/* NEXT CARD */}
+
 </div>
 </>
 );

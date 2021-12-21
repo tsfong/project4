@@ -47,7 +47,7 @@ const Gallery = () => {
         <img className = "inkblot-pics" src={inkblot8} alt="inkblot8" />
         <h2>Card 8:</h2>
         <h4>Four-Legged Animals, Lions, Pigs, Bears, Tree, Rib Cage</h4>
-        <p>Card VII often is perceived as a positive image, where viewers express relief and respond effectively. It is meant to be a change of pace during the test and introduces new elaborations with colors and complexity. For people who find processing complex situations or emotional stimuli distressing or difficult may be uncomfortable with this card.</p>
+        <p>Card VIII often is perceived as a positive image, where viewers express relief and respond effectively. It is meant to be a change of pace during the test and introduces new elaborations with colors and complexity. For people who find processing complex situations or emotional stimuli distressing or difficult may be uncomfortable with this card.</p>
         <img className = "inkblot-pics" src={inkblot9} alt="inkblot9" />
         <h2>Card 9:</h2>
         <h4>Fire, Smoke, Women, Anatomy, Flower</h4>
