@@ -7,11 +7,12 @@ import "./images/inkblot1.jpeg";
 
 const InkblotTest = () => (
     <>
-    <Card style={{ width: '18rem' }}>
-  <Card.Img variant="top" src="./images/inkblot1.jpeg" />
+    <div className="card-container">
+    <Card style={{ width: '60rem' }}>
+  <Card.Img variant="top" src=".images//inkblot1.jpeg" />
   <Card.Body>
     <Card.Title>Inkblot I</Card.Title>
-    <Card.Text>
+    <Card.Text className="text-box">
       What do you see?
     </Card.Text>
     <Form>
@@ -27,7 +28,7 @@ const InkblotTest = () => (
   </Card.Body>
 </Card>
 {/* SECOND CARD */}
-    <Card style={{ width: '18rem' }}>
+    <Card style={{ width: '60rem' }}>
   <Card.Img variant="top" src="./images/inkblot2.jpeg" alt="pic" />
   <Card.Body>
     <Card.Title>Inkblot I</Card.Title>
@@ -46,6 +47,7 @@ const InkblotTest = () => (
 </Form>
   </Card.Body>
 </Card>
+</div>
 </>
 );
 
