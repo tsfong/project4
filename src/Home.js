@@ -33,7 +33,7 @@ export default function Home() {
                 <div className="img">
                   {toggle === key ? (
                     <>
-                      <img src={img} key={key} className="photo" />
+                      <img src={img} key={key} className="photo" alt="pic" />
                     </>
                   ) : null}
                 </div>
@@ -66,7 +66,7 @@ const inkblots = [
       key: "1",
       title: "Card 1",
       text: "What do you see?",
-      img: "./images/inkblot1.jpeg"
+      img: "../public/images/inkblot1.jpeg"
     },
     {
       id: "2",
@@ -79,56 +79,56 @@ const inkblots = [
       id: "3",
       key: "3",
       title: "Card 3",
-      text: "Text3.",
+      text: "What do you see?",
       img: "./images/inkblot3.jpeg"
     },
     {
       id: "4",
       key: "4",
       title: "Card 4",
-      text: "Text4",
+      text: "What do you see?",
       img: "./images/inkblot4.jpeg"
     },
     {
         id: "5",
         key: "5",
         title: "Card 5",
-        text: "Text1.",
+        text: "What do you see?",
         img: "./images/inkblot5.jpeg"
       },
       {
         id: "6",
         key: "6",
         title: "Card 6",
-        text: "Text2.",
+        text: "What do you see?",
         img: "./images/inkblot6.jpeg"
       },
       {
         id: "7",
         key: "7",
         title: "Card 7",
-        text: "Text3.",
+        text: "What do you see?",
         img: "./images/inkblot7.jpeg"
       },
       {
         id: "8",
         key: "8",
         title: "Card 8",
-        text: "Text4",
+        text: "What do you see?",
         img: "./images/inkblot8.jpeg"
       },
       {
         id: "9",
         key: "9",
         title: "Card 9",
-        text: "Text4",
+        text: "What do you see?",
         img: "./images/inkblot9.jpeg"
       },
       {
         id: "10",
         key: "10",
         title: "Card 10",
-        text: "Card 10",
+        text: "What do you see?",
         img: "./images/inkblot10.jpeg"
       },
   ];

@@ -12,7 +12,7 @@ const NavBar = () => (
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="me-auto">
             <Link className="nav-link" to="/about">About</Link>
-            <Link className="nav-link" href="https://tsfong.github.io/create-inkblot/">Create</Link>
+            <Link className="nav-link" to="/create">Create</Link>
             <Link className="nav-link" to="/gallery">Gallery</Link>
         </Nav>
       </Navbar.Collapse>

@@ -22,8 +22,8 @@ function App() {
     <Route path='/about'>
         <About />
       </Route>
-    <Route path='/create-inkblot/'>
-       {/* <Create /> */}
+    <Route path='/create'>
+       <Create />
     </Route>
     <Route path='/gallery'>
         <Gallery />
