@@ -4,26 +4,30 @@
 
 .header-container {
   background-image: url(./images/background1.jpeg);
+  padding-left: 15px;
+  width: 100%;
 }
 
 .header-text {
   padding-top: 30px;
-  padding-right: 200px;
+  padding-right: 220px;
   text-align: center;
   height: 800px;
 }
 
 h1{
   font-size: 50px;
+  font-weight: 700;
 }
 
-h4 {
+.header-subtitle {
+  color:slategrey;
   padding-left: 100px;
 }
 
 .Link {
   font-style:italic;
-  padding-left: 200px;
+  padding-left: 250px;
   color: rgb(201, 8, 8);
 }
 
@@ -34,4 +38,42 @@ h4 {
 .inkblot-test {
   text-align: center;
   margin: 0 auto;
+}
+
+.line1 {
+  padding-top: 100px;
+  padding-left: 100px;
+}
+
+.line2 {
+  padding: 20px;
+  padding-left: 250px;
+}
+
+.line3 {
+  padding: 20px;
+  padding-left: 260px;
+}
+
+.line4 {
+  padding: 20px;
+  padding-left: 210px;
+  letter-spacing: 5px;
+}
+
+.line5 {
+  padding: 20px;
+  padding-left: 130px;
+}
+
+.line6 {
+  padding: 20px;
+  padding-left: 30px;
+}
+
+.line7 {
+  padding: 20px;
+  padding-left: 150px;
+  font-style: italic;
+  font-weight: bold;
 }
