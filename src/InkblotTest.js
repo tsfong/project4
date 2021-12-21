@@ -9,7 +9,7 @@ const InkblotTest = () => (
     <>
     <div className="card-container">
     <Card style={{ width: '60rem' }}>
-  <Card.Img variant="top" src=".images//inkblot1.jpeg" />
+  <Card.Img variant="top" src=".images/inkblot1.jpeg" />
   <Card.Body>
     <Card.Title>Inkblot I</Card.Title>
     <Card.Text className="text-box">
