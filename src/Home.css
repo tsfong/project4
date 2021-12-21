@@ -1,0 +1,37 @@
+.home-container {
+  font-family: "Raleway", sans-serif
+}
+
+.header-container {
+  background-image: url(./images/background1.jpeg);
+}
+
+.header-text {
+  padding-top: 30px;
+  padding-right: 200px;
+  text-align: center;
+  height: 800px;
+}
+
+h1{
+  font-size: 50px;
+}
+
+h4 {
+  padding-left: 100px;
+}
+
+.Link {
+  font-style:italic;
+  padding-left: 200px;
+  color: rgb(201, 8, 8);
+}
+
+.Link:hover {
+   color: rgb(157, 3, 3);
+}
+
+.inkblot-test {
+  text-align: center;
+  margin: 0 auto;
+}
