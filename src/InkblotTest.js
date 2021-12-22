@@ -1,5 +1,4 @@
 import React from "react"
-import { useState } from "react";
 import "./InkblotTest.css";
 import { Card } from "react-bootstrap";
 import { Form } from "react-bootstrap";
@@ -28,14 +27,14 @@ const InkblotTest = () => (
     </Card.Text>
     <Form>
   <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-    <Form.Label>First Name:</Form.Label>
-    <Form.Control type="first-name" placeholder="First Name" />
+    <Form.Label>Your First Name:</Form.Label>
+    <Form.Control type="first-name" placeholder="(First Name)" />
   </Form.Group>
   <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
     <Form.Label>Response:</Form.Label>
-    <Form.Control as="textarea" placeholder="type of animal, emotions, etc." rows={3} />
+    <Form.Control as="textarea" placeholder="(Type of animal, emotions, etc.)" rows={3} />
   </Form.Group>
-  <button type="submit" class="btn btn-primary">Submit</button>
+  <button type="submit" class="btn btn-dark">Submit</button>
 </Form>
   </Card.Body>
 </Card>
@@ -54,6 +53,7 @@ const InkblotTest = () => (
     <Form.Label>Response:</Form.Label>
     <Form.Control as="textarea" rows={3} />
   </Form.Group>
+  <button type="submit" class="btn btn-dark">Submit</button>
 </Form>
   </Card.Body>
 </Card>
@@ -72,6 +72,7 @@ const InkblotTest = () => (
     <Form.Label>Response:</Form.Label>
     <Form.Control as="textarea" rows={3} />
   </Form.Group>
+  <button type="submit" class="btn btn-dark">Submit</button>
 </Form>
   </Card.Body>
 </Card>
@@ -90,6 +91,7 @@ const InkblotTest = () => (
     <Form.Label>Response:</Form.Label>
     <Form.Control as="textarea" rows={3} />
   </Form.Group>
+  <button type="submit" class="btn btn-dark">Submit</button>
 </Form>
   </Card.Body>
 </Card>
@@ -108,6 +110,7 @@ const InkblotTest = () => (
     <Form.Label>Response:</Form.Label>
     <Form.Control as="textarea" rows={3} />
   </Form.Group>
+  <button type="submit" class="btn btn-dark">Submit</button>
 </Form>
   </Card.Body>
 </Card>
@@ -126,6 +129,7 @@ const InkblotTest = () => (
     <Form.Label>Response:</Form.Label>
     <Form.Control as="textarea" rows={3} />
   </Form.Group>
+  <button type="submit" class="btn btn-dark">Submit</button>
 </Form>
   </Card.Body>
 </Card>
@@ -144,6 +148,7 @@ const InkblotTest = () => (
     <Form.Label>Response:</Form.Label>
     <Form.Control as="textarea" rows={3} />
   </Form.Group>
+  <button type="submit" class="btn btn-dark">Submit</button>
 </Form>
   </Card.Body>
 </Card>
@@ -162,6 +167,7 @@ const InkblotTest = () => (
     <Form.Label>Response:</Form.Label>
     <Form.Control as="textarea" rows={3} />
   </Form.Group>
+  <button type="submit" class="btn btn-dark">Submit</button>
 </Form>
   </Card.Body>
 </Card>
@@ -180,6 +186,7 @@ const InkblotTest = () => (
     <Form.Label>Response:</Form.Label>
     <Form.Control as="textarea" rows={3} />
   </Form.Group>
+  <button type="submit" class="btn btn-dark">Submit</button>
 </Form>
   </Card.Body>
 </Card>
@@ -198,6 +205,7 @@ const InkblotTest = () => (
     <Form.Label>Response:</Form.Label>
     <Form.Control as="textarea" rows={3} />
   </Form.Group>
+  <button type="submit" class="btn btn-dark">Submit</button>
 </Form>
   </Card.Body>
 </Card>
