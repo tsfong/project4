@@ -26,3 +26,24 @@ h4 {
     font-weight: 500;
     font-style: italic;
 }
+
+img {
+    -webkit-animation: flip 1s;
+    animation: flip 1s;
+  }
+  @-webkit-keyframes flip {
+    from {
+      transform: rotateY(90deg)
+    }
+    to {
+      transform: rotateY(0deg)
+    }
+  }
+  @keyframes flip {
+    from {
+      transform: rotateY(90deg)
+    }
+    to {
+      transform: rotateY(0deg)
+    }
+  }
