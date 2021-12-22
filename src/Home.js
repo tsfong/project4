@@ -10,7 +10,9 @@ export default function Home() {
         <div className="home-container">
           <div className="header-container">
             <div className="header-text">
-              <h1>Seeing Things That Matter</h1>  
+              <div className="sign">
+              <h1><span className="fast-flicker">Seeing </span><span className="flicker">Things </span><span className="fast-flicker">That</span> <span className="flicker">Matter</span></h1>
+              </div>
                 <h4 className="header-subtitle">explore your mind...</h4>
                 <Link className="Link" to="./inkblot-test">start the test</Link>
             <div className="quote">

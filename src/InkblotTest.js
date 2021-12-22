@@ -13,8 +13,6 @@ import inkblot8 from "./images/inkblot8.jpeg";
 import inkblot9 from "./images/inkblot9.jpeg";
 import inkblot10 from "./images/inkblot10.jpeg";
 
-
-
 const InkblotTest = () => (
     <>
     <div className="card-container">
