@@ -5,6 +5,8 @@
 - [GitHub Repo](https://git.generalassemb.ly/tiffanysfong/project-4)
 - [Deployed Link of Project 4](https://tsfong.github.io/project4/#/)
 - [Separate Deployed Link for Create Inkblot](https://tsfong.github.io/create-inkblot/)
+- [Repo for Create Inkblot](https://github.com/tsfong/create-inkblot)
+
 
 ## Project Description
 
