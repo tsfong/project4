@@ -3,7 +3,8 @@
 ## Project Links
 
 - [GitHub Repo](https://git.generalassemb.ly/tiffanysfong/project-4)
-- [Deployed Link]()
+- [Deployed Link of Project 4](https://tsfong.github.io/project4/#/)
+- [Separate Deployed Link for Create Inkblot](https://tsfong.github.io/create-inkblot/)
 
 ## Project Description
 
@@ -34,7 +35,7 @@ Upload images of wireframe to cloudinary and add the link here with a descriptio
 - Beautify
 - Add Animations
 - Comment/Edit Features
--Community Features
+- Community Features
 
 ## Components
 
@@ -53,18 +54,61 @@ Upload images of wireframe to cloudinary and add the link here with a descriptio
 
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: | :---: |  :---: |
-| Adding Text Form | H | 3hrs|  hrs |
-| Random Inkblot Generator | H | 3hrs| hr |
-| Laying out App.JS | H | 3hrs | hr |
-| NavBar | H | 2hrs |  hr |
-| Linking/Routes | H | 3hrs | hr |
-| Create an Inkblot | H | 8hrs |  hr |
-| Gallery | H | 3hrs |  hr |
-| About | H | 3hrs |  hr |
-| Beautify and aesthetics | M | 5hrs | hr |
-| Total | H | 33hrs| hr |
+| Adding Text Form | H | 3hrs| 2hrs |
+| Inkblot Test | H | 3hrs| 3hrs |
+| Laying out App.JS | H | 3hrs | 2hrs |
+| NavBar | H | 2hrs |  1hrs |
+| Linking/Routes | H | 3hrs | 2hrs |
+| Create an Inkblot | H | 8hrs |  12hrs |
+| Gallery | H | 3hrs |  4hrs |
+| About | H | 3hrs |  3hrs |
+| Beautify and aesthetics | M | 5hrs | 10hrs |
+| Total | H | 33hrs| 39hrs |
 
 ## Additional Libraries
 N/A
 ## Code Snippet
-N/A
+
+I had a lot of fun this time trying out new things for CSS and design. Before I would DREAD it so I really wanted to give myself time during this project to see what the hype was about. That's when I discovered keyframes and my life was changed!
+
+```.flicker {
+  animation: shine 2s forwards, blink 3s 2s infinite;
+}
+
+.fast-flicker {
+  animation: shine 2s forwards, blink 10s 1s infinite;
+}
+@keyframes blink {
+  0%,
+  22%,
+  36%,
+  75% {
+    color: #ffe6ff;
+    text-shadow: 0 0 0.6rem #ffe6ff, 0 0 1.5rem #ff65bd,
+      -0.2rem 0.1rem 1rem #ff65bd, 0.2rem 0.1rem 1rem #ff65bd,
+      0 -0.5rem 2rem #ff2483, 0 0.5rem 3rem #ff2483;
+  }
+  28%,
+  33% {
+    color: #ff65bd;
+    text-shadow: none;
+  }
+  82%,
+  97% {
+    color: #ff2483;
+    text-shadow: none;
+  }
+}
+
+@keyframes shine {
+  0% {
+    color: #6b1839;
+    text-shadow: none;
+  }
+  100% {
+    color: #ffe6ff;
+    text-shadow: 0 0 0.6rem #ffe6ff, 0 0 1.5rem #ff65bd,
+      -0.2rem 0.1rem 1rem #ff65bd, 0.2rem 0.1rem 1rem #ff65bd,
+      0 -0.5rem 2rem #ff2483, 0 0.5rem 3rem #ff2483;
+  }
+}```

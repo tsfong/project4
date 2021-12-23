@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/project4/static/css/main.06164340.css",
-    "main.js": "/project4/static/js/main.cbe1eee1.js",
+    "main.css": "/project4/static/css/main.96feb3db.css",
+    "main.js": "/project4/static/js/main.64b44eb3.js",
     "static/media/HermannRorschach.jpeg": "/project4/static/media/HermannRorschach.639b01ac1dc8a91567ac.jpeg",
     "static/media/inkblot8.jpeg": "/project4/static/media/inkblot8.822b3c3d8e10df95bb5c.jpeg",
     "static/media/inkblot9.jpeg": "/project4/static/media/inkblot9.3553f69c9c136d3ec096.jpeg",
@@ -16,11 +16,11 @@
     "static/media/inkblot3.jpeg": "/project4/static/media/inkblot3.92b47929ad241bcba48d.jpeg",
     "static/media/inkblot5.jpeg": "/project4/static/media/inkblot5.b0524ccc2ead39bcb064.jpeg",
     "index.html": "/project4/index.html",
-    "main.06164340.css.map": "/project4/static/css/main.06164340.css.map",
-    "main.cbe1eee1.js.map": "/project4/static/js/main.cbe1eee1.js.map"
+    "main.96feb3db.css.map": "/project4/static/css/main.96feb3db.css.map",
+    "main.64b44eb3.js.map": "/project4/static/js/main.64b44eb3.js.map"
   },
   "entrypoints": [
-    "static/css/main.06164340.css",
-    "static/js/main.cbe1eee1.js"
+    "static/css/main.96feb3db.css",
+    "static/js/main.64b44eb3.js"
   ]
 }
