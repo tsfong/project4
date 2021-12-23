@@ -27,6 +27,13 @@ h4 {
     font-style: italic;
 }
 
+footer {
+  font-size: 13px;
+  color: rgb(123, 0, 0);
+  text-align: center;
+  font-style: italic;
+}
+
 img {
     -webkit-animation: flip 1s;
     animation: flip 1s;

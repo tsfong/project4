@@ -14,6 +14,7 @@ import inkblot10 from "./images/inkblot10.jpeg";
 
 const Gallery = () => {
     return (
+        <>
         <div className = "inkblot_container">
             <h1 className = "gallery-header">Inkblots and Their Interpretations</h1>
         <img className = "inkblot-pics" src={inkblot1} alt="inkblot1" />
@@ -57,6 +58,8 @@ const Gallery = () => {
         <h4>Crab, Lobster, Spider, Rabbit Head, Worms</h4>
         <p>Card X is similar to Card VII but has the same uncertainty and complexity of Card IX. It has many shapes with lots of activity and places to see things within the image. This card will test your organizational ability and provides viewers with the opportunity to respond with a comprehensive answer to end the test.</p>
         </div>
+    <footer><p>Disclaimer: Please do not psychoanalyze yourself. Seek a professional for advice.</p></footer>
+    </>
     )
 }
 
